@@ -6,9 +6,13 @@ namespace WalletApp.Persistence.DBContext;
 
 public class WalletAppDbContext : DbContext
 {
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
-        optionsBuilder.UseNpgsql("Host=localhost;Port=5499;Database=wallet-app;Username=postgres;Password=2121");
+    public WalletAppDbContext(DbContextOptions<WalletAppDbContext> options)
+        : base(options)
+    {
     }
+    
+    public DbSet<Transaction> Transactions { get; set; }
+    public DbSet<User> Users { get; set; }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -25,7 +29,4 @@ public class WalletAppDbContext : DbContext
             .HasForeignKey(t => t.AuthorizedUserId)
             .OnDelete(DeleteBehavior.Restrict);
     }
-    
-    public DbSet<Transaction> Transactions { get; set; }
-    public DbSet<User> Users { get; set; }
 }

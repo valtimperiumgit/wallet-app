@@ -7,8 +7,6 @@ using WalletApp.Persistence.DBContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<WalletAppDbContext>();
-
 builder.Services
     .AddPersistence(builder.Configuration)
     .AddInfrastructure(builder.Configuration);
