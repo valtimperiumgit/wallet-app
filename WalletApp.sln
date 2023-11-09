@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletApp.Domain", "WalletApp.Domain\WalletApp.Domain.csproj", "{EF5F8A22-EE8A-4622-BB70-78D9F7BD26BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletApp.Persistence", "WalletApp.Persistence\WalletApp.Persistence.csproj", "{4609F673-E3C1-4B9E-B999-7573559F3EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletApp.Contracts", "WalletApp.Contracts\WalletApp.Contracts.csproj", "{FAEDB4DF-B97E-4C6D-B626-D88B8C033CFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A5196632-0F02-416C-8802-7B47A1AF3948}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{EF2F05C0-5885-42F9-8ED1-DC10B33980CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletApp.Api", "WalletApp.Api\WalletApp.Api.csproj", "{6FD92690-EC9C-4D46-BEBF-B49A78B31F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletApp.Infrastructure", "WalletApp.Infrastructure\WalletApp.Infrastructure.csproj", "{310B7191-30E2-48CD-AA55-7DFDB5530BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletApp.Application", "WalletApp.Application\WalletApp.Application.csproj", "{76341C99-2A77-4A29-9319-639BDAA03646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5F8A22-EE8A-4622-BB70-78D9F7BD26BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5F8A22-EE8A-4622-BB70-78D9F7BD26BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5F8A22-EE8A-4622-BB70-78D9F7BD26BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5F8A22-EE8A-4622-BB70-78D9F7BD26BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4609F673-E3C1-4B9E-B999-7573559F3EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4609F673-E3C1-4B9E-B999-7573559F3EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4609F673-E3C1-4B9E-B999-7573559F3EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4609F673-E3C1-4B9E-B999-7573559F3EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEDB4DF-B97E-4C6D-B626-D88B8C033CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEDB4DF-B97E-4C6D-B626-D88B8C033CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEDB4DF-B97E-4C6D-B626-D88B8C033CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEDB4DF-B97E-4C6D-B626-D88B8C033CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD92690-EC9C-4D46-BEBF-B49A78B31F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD92690-EC9C-4D46-BEBF-B49A78B31F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD92690-EC9C-4D46-BEBF-B49A78B31F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD92690-EC9C-4D46-BEBF-B49A78B31F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310B7191-30E2-48CD-AA55-7DFDB5530BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310B7191-30E2-48CD-AA55-7DFDB5530BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310B7191-30E2-48CD-AA55-7DFDB5530BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310B7191-30E2-48CD-AA55-7DFDB5530BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76341C99-2A77-4A29-9319-639BDAA03646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76341C99-2A77-4A29-9319-639BDAA03646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76341C99-2A77-4A29-9319-639BDAA03646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76341C99-2A77-4A29-9319-639BDAA03646}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAEDB4DF-B97E-4C6D-B626-D88B8C033CFD} = {A5196632-0F02-416C-8802-7B47A1AF3948}
+		{EF5F8A22-EE8A-4622-BB70-78D9F7BD26BE} = {A5196632-0F02-416C-8802-7B47A1AF3948}
+		{4609F673-E3C1-4B9E-B999-7573559F3EDD} = {A5196632-0F02-416C-8802-7B47A1AF3948}
+		{6FD92690-EC9C-4D46-BEBF-B49A78B31F57} = {EF2F05C0-5885-42F9-8ED1-DC10B33980CE}
+		{310B7191-30E2-48CD-AA55-7DFDB5530BD0} = {A5196632-0F02-416C-8802-7B47A1AF3948}
+		{76341C99-2A77-4A29-9319-639BDAA03646} = {A5196632-0F02-416C-8802-7B47A1AF3948}
+	EndGlobalSection
+EndGlobal

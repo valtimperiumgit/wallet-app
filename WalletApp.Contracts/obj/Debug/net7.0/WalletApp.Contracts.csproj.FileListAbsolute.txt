@@ -1,0 +1,15 @@
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\bin\Debug\net7.0\WalletApp.Contracts.deps.json
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\bin\Debug\net7.0\WalletApp.Contracts.dll
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\bin\Debug\net7.0\WalletApp.Contracts.pdb
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\bin\Debug\net7.0\WalletApp.Domain.dll
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\bin\Debug\net7.0\WalletApp.Domain.pdb
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.csproj.AssemblyReference.cache
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.csproj.CopyComplete
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.dll
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\refint\WalletApp.Contracts.dll
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\WalletApp.Contracts.pdb
+C:\Users\admin\RiderProjects\WalletApp\WalletApp.Contracts\obj\Debug\net7.0\ref\WalletApp.Contracts.dll
