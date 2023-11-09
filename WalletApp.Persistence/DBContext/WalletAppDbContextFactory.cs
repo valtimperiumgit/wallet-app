@@ -10,7 +10,7 @@ public class WalletAppDbContextFactory : IDesignTimeDbContextFactory<WalletAppDb
         var optionsBuilder = new DbContextOptionsBuilder<WalletAppDbContext>();
         
         var connectionString = Environment.GetEnvironmentVariable("WALLETAPP_DB_CONNECTION_STRING")
-                               ?? "Host=localhost;Port=5499;Database=test;Username=postgres;Password=2121";
+                               ?? "Host=localhost;Port=5499;Database=test-wallet-app;Username=postgres;Password=2121";
 
         optionsBuilder.UseNpgsql(connectionString);
 
